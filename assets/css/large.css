@@ -1,0 +1,168 @@
+@media (min-width: 1170px) {
+    
+.wrap {
+    
+    width: 1170px ;
+    margin: auto ;
+}
+
+    
+    
+
+
+.bloctext {
+        
+    width : 1100px ;
+    vertical-align: middle ;
+    padding-bottom: 40px;
+}
+
+
+    .middle {
+        text-align: center;
+    }
+    
+
+    
+.footix {
+        
+    padding: 0%;
+
+}
+
+footer {
+    
+    color: white ;
+    text-align: center ;  
+}
+
+.blocfooterdeux {
+    
+    text-align: center ;
+}
+
+.blocfooterdeux p {
+    
+    display: inline-block ;
+    margin-right : 10% ;
+}
+
+.blocfooterdeux p:last-of-type {
+    
+    margin-right: 0 ;
+}
+    
+    
+.blocfooter {
+    
+    display:inline-block ;
+    vertical-align: middle ;
+    padding-right: 35%;
+    padding-top: 20px;
+}
+    
+.blocfooter:last-of-type {
+    
+    padding-right:0;
+}
+    
+div.center {
+        
+        text-align: center;
+    }
+    
+    
+.gauche { 
+    
+    width: 510px;
+    float: left;
+}
+
+    .bar {
+        
+        width: 510px;
+        float: right;
+    }
+    
+    
+.carte div {
+    float:left;
+    overflow: hidden ;
+    vertical-align: top;
+}
+
+.cacahuete {
+    
+    width: 336px;
+    height: 400px;
+    background-image: url(../img/cacahuete-cosse.jpg);
+    background-size: cover;
+}
+
+.cocktailfr {
+    
+    width: 534px ;
+    height: 700px;
+    background-image: url(../img/cocktailexpotique.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+    
+.chips {
+    
+    width: 300px;
+    height: 250px;
+    background-image: url(../img/chips.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+    
+    
+.verrerouge
+    { height: 450px;
+    width: 300px;
+            background-image: url(../img/cocktailrouge.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    
+.monster {
+    width: 336px;
+    height: 520px;
+    background-image: url(../img/monstermuch.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+    .nofloat div {
+        float: none;
+    }
+    
+    .nofloat {
+                width:336px;
+    }
+    
+.mojito {
+     width: 834px;
+    height: 520px;
+    background-image: url(../img/mojito.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+    .cookie {
+        
+        height: 300px;
+        width: 336px;
+   background-image: url(../img/cookie.JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;       
+    }

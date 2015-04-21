@@ -1,0 +1,345 @@
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue.eot');
+    src: url('../fonts/bebasneue.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue.woff2') format('woff2'),
+         url('../fonts/bebasneue.woff') format('woff'),
+         url('../fonts/bebasneue.ttf') format('truetype'),
+         url('../fonts/bebasneue.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+    
+    @font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular.eot');
+    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular.woff2') format('woff2'),
+         url('../fonts/raleway-regular.woff') format('woff'),
+         url('../fonts/raleway-regular.ttf') format('truetype'),
+         url('../fonts/raleway-regular.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* HEADER ET REGLES GENERALES */
+
+.clearfix:after {
+    
+ display: block;
+ float: none;
+ clear: both;
+ content: '';
+}
+
+
+
+body {
+    
+    margin : 0 ;
+    background-color: black ;
+}
+
+body h1 {
+    font-family: 'bebas_neueregular' ;
+    font-size: 24px;
+    color: #dd0d0d ;
+    text-align: center;
+
+
+}
+
+body h2 {
+    
+    font-family: 'bebas_neueregular' ;
+    font-size: 20px;
+    margin: 0 ;
+
+}
+
+body h4 {
+    
+    font-family:  'ralewayregular' ;
+    font-size: 12px ;
+    font-style: italic ;
+    font-weight: bold ;
+    text-align: center ;
+}
+    
+
+
+body p, body a {
+    font-family:  'ralewayregular' ;
+    font-size: 12px ;
+    margin: 0;
+    color: white;
+    font-weight: 400;
+}
+
+
+
+.wrap {
+    
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.logo {
+    padding: 5% ;
+    vertical-align: middle;
+}
+
+
+.hamb {
+    
+    display:block;
+    padding : 1% ;
+    padding-top: 5px;
+    padding-left: 80%;
+    padding-bottom: 10px;
+}
+
+header {
+    
+    width: 100% ;
+}
+
+.active {
+    
+    color: darkgrey;
+}
+
+.navbar li {
+    
+    width: 100%;
+    height : 40px ;
+    margin-bottom: 1px;
+    text-align: center ;
+    line-height: 40px;
+}
+
+
+.navbar li a {
+    
+    text-transform: uppercase ;
+    font-family: 'bebas_neueregular' ;
+    color: white ;
+    text-decoration: none ;
+    font-size: 20px ;
+    padding-top : 10px ;
+}
+
+
+
+
+nav img:hover {
+		cursor: pointer;
+	}
+
+.navbar {
+		display: none;
+
+	}
+
+
+/* PAGE D'ACCUEIL */
+
+
+.bann {
+    
+    width: 100%;
+}
+
+.bloctext p, .bloctext h1 {
+    
+    padding: 20px;
+}
+
+
+
+
+.center {
+    
+    text-align: center ;
+    color: #dd0d0d ;
+    font-size: 24px;
+}
+
+.center img {
+    
+    height: 300px;
+}
+
+.cocktail {
+    
+    height: 350px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 20px;
+    margin: 40px;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+
+
+.bar {
+    width: 100%; 
+}
+
+/* FOOTER */
+
+
+.footix {
+        
+    background-size: 20px 117px ;
+    background-repeat: repeat-x ;
+    padding: 5% ;
+
+}
+
+footer {
+    
+    color: white ;
+    text-align: center ;
+    
+}
+
+.blocfooterdeux {
+    
+    text-align: center ;
+}
+
+.blocfooterdeux a {
+    
+    display: inline-block ;
+    margin-right : 10% ;
+    text-decoration: none;
+}
+
+.blocfooterdeux a:hover {
+    color: darkgrey;
+}
+
+.blocfooterdeux a:last-of-type {
+    
+    margin-right: 0 ;
+}
+
+
+/* LA CARTE */ 
+
+
+.carte div {
+    float:left;
+    overflow: hidden ;
+    vertical-align: top;
+}
+
+.cacahuete {
+    
+    width: 100%;
+     height: 300px;
+    background-image: url(../img/cacahuete-cosse.jpg);
+    background-size: cover;
+}
+
+.cocktailfr {
+    
+    width: 100%;
+     height: 300px;
+    background-image: url(../img/cocktailexpotique.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+.nofloat {
+    width: 100%
+}
+.chips {
+    
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/chips.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+    
+    
+.verrerouge
+    { 
+        
+        width: 100%;
+         height: 300px;
+            background-image: url(../img/cocktailrouge.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    
+.monster {
+        width: 100%;
+ height: 300px;
+    background-image: url(../img/monstermuch.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+    
+    
+.mojito {
+        width: 100%;
+ height: 300px;
+    background-image: url(../img/mojito.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+    .cookie {
+        
+        width: 100%;
+ height: 300px;
+   background-image: url(../img/cookie.JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;       
+    }
+
+
+.carte button {
+    
+    padding: 5px;
+    border-radius: 10px;
+    background: rgb(183,52,12); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(183,52,12,1) 0%, rgba(183,77,75,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(183,52,12,1)), color-stop(100%,rgba(183,77,75,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(183,52,12,1) 0%,rgba(183,77,75,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(183,52,12,1) 0%,rgba(183,77,75,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(183,52,12,1) 0%,rgba(183,77,75,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(183,52,12,1) 0%,rgba(183,77,75,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7340c', endColorstr='#b74d4b',GradientType=0 ); /* IE6-9 */
+    box-shadow: red;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+.carte button:hover {
+    
+    background: #ad1818 ;
+}
+
+.carte button a {
+    text-decoration: none;
+}
